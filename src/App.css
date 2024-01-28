@@ -25,6 +25,7 @@ table {
   border-radius: 20px; 
   overflow: hidden;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
