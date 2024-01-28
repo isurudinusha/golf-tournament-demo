@@ -24,6 +24,7 @@ table {
   background-color: #fff;
   border-radius: 20px; 
   overflow: hidden;
+  background-repeat: no-repeat;
 }
 
 
