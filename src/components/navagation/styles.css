@@ -1,0 +1,65 @@
+.navagation-container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  height: auto;
+  align-items: center;
+  gap: 10px;
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+img {
+  width: 30px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.nav-links-container {
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.nav-links-container a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  background: #fbca1f;
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+button:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
