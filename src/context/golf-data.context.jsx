@@ -14,12 +14,12 @@ export const GolfDataProvider = ({ children }) => {
     const socket = io("https://mst-full-stack-dev-test.herokuapp.com/");
     // Listen for 'data-update' event from the server
     socket.on("connect", () => {
-      console.log("Connected to the server");
+      //   console.log("Connected to the server");
     });
 
     // Listen for any data from the server
     socket.on("data-update", (newPlayer) => {
-      console.log("Received data from the server:", newPlayer);
+      //   console.log("Received data from the server:", newPlayer);
       //check if player is already in the list
       const playerIndex = playersData.findIndex(
         (player) => player.MSTID === newPlayer.MSTID
